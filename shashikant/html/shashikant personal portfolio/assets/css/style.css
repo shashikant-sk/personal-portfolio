@@ -8376,7 +8376,7 @@ body.template-color-1 {
     position: relative;
     z-index: 2;
     font-size: 14px;
-    border: 0 none;
+    border: 1;
     width: 100%;
     min-width: 100%;
     padding: 10px 0px 8px;
@@ -8393,7 +8393,7 @@ body.template-color-1 {
       border-radius: 6px;
       top: 0;
       left: 0;
-      background: linear-gradient(to right bottom, #212428, #16181c);
+      background: linear-gradient(to right bottom, #758eaf, #16181c);
       opacity: 0;
       z-index: -1; }
     .rn-right-demo .demo-button .text {
@@ -12600,7 +12600,7 @@ div#featured-project-carousel {
         width: 100%; }
 
 .footer-area .logo a img {
-  max-height: 100px; }
+  max-height: 200px; }
 
 /*-----------------------
     Footer Style Two  
