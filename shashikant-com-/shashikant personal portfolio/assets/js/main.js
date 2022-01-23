@@ -1,3 +1,14 @@
+document.getElementById("switchTheme").addEventListener("click",(e)=>{
+  if(e.target.outerText === "Light"){
+    document.querySelector("#switchTheme span").innerHTML = "Dark";
+    document.getElementById("body").className = "template-color-1 spybody white-version";
+  }
+  else{
+    document.querySelector("#switchTheme span").innerHTML = "Light";
+    document.getElementById("body").className = "template-color-1 spybody";
+  }
+});
+
 (function ($) {
   "use strict";
 
